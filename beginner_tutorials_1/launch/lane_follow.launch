@@ -1,0 +1,10 @@
+<launch>
+  <node pkg="beginner_tutorials" type="lane_follower.py" name="lane_follower" output="screen" />
+  
+   <node pkg="rosserial_python" type="serial_node.py" name="serial_node" output="screen">
+        <param name="port" value="/dev/ttyUSB1" />
+        <param name="baud" value="9600" />
+    </node>
+
+</launch>
+

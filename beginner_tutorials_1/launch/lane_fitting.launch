@@ -1,0 +1,4 @@
+<launch>
+        <node pkg="beginner_tutorials" type="lane_fitting.py" name="lane_fitting" output="screen" />
+
+</launch>
